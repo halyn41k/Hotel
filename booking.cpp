@@ -1,14 +1,4 @@
-
-
-void Booking::displayBookings() {
-    try {
-        while (true) {
-            // Âèâåäåííÿ ïîâ³äîìëåííÿ ïðî ââåäåííÿ ID áðîíþâàííÿ àáî 0 äëÿ âèâåäåííÿ âñ³õ
-            cout << "~~ Ââåä³òü ID áðîíþâàííÿ àáî ââåä³òü 0, ùîá âèâåñòè âñ³ ~~" << endl;
-
-            string bookingIdStr;
-            cout << "ID áðîíþâàííÿ: ";
-            cin.clear(); // Ñêèäàºìî ôëàã ïîìèëêè
+efg3eg
             cin.ignore(INT_MAX, '\n'); // Î÷èùàºìî âõ³äíèé áóôåð
             getline(cin, bookingIdStr);
 
