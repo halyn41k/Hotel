@@ -1,12 +1,4 @@
-#include "booking.h"
-#include "guest.h"
-#include <iostream>
-#include <iomanip>
-#include <string>
-#include "utils.h"
-#include <sstream>
 
-Booking::Booking() : bookingId(0), roomNumber(0), guestId(0), bookingDate("none"), term("none") {}
 
 void Booking::displayBookings() {
     try {
